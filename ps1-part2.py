@@ -1,11 +1,12 @@
-# Write a function that takes two variables and does all the computations asked
 
-# Ask the user for the first number, store the value in a variable
+def number_fun(a,b):
+    print("You entered", a, "and", b)
+    print(f"{a} + {b} = {a + b}")
+    print(f"{a} * {b} = {a * b}")
+    print(f"{a} ** {b} = {a ** b}")
+    print(f"{a} % {b} = {a % b}")
 
+firstnum = int(input("Enter an integer between 10 and 100:"))
+secondnum = int(input("Enter an interger less than 4:"))
 
-# Ask the user for the second number, store the value in a variable
-
-
-# Repeat back the numbers
-
-# Perform calculations. Be careful about string formatting for autograders.
+number_fun(firstnum, secondnum)
